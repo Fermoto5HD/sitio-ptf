@@ -1,0 +1,95 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: black;
+  font-size: 0;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+#navbar li {
+  float: left;
+}
+#navbar li:last-of-type {
+  float: right;
+}
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.5s;
+  background-color: #333;
+  font-size: 16px;
+}
+#navbar li a:hover {
+  transition: 0.5s;
+  background-color: #111;
+}
+#navbar li a.active {
+  background-color: #4CAF50;
+}
+
+h1 {
+  font-family: "Rubik", Helvetica, Arial, sans-serif;
+  font-size: 72px;
+  text-align: center;
+  color: #CCC;
+}
+
+p {
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: #CCC;
+  margin: 0 6%;
+}
+
+#video {
+  width: 100%;
+  margin-top: 5%;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  width: 100%;
+  font-size: 0;
+}
+footer ul li {
+  display: block;
+}
+footer ul li i {
+  margin-right: 10px;
+}
+footer ul li a {
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.material-icons.md-light {
+  color: white;
+}
+
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+#tutoriales {
+  color: white;
+  font-size: 16px;
+}

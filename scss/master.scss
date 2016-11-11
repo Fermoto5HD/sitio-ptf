@@ -1,0 +1,100 @@
+$font: Helvetica, Arial, sans-serif;
+
+body {
+    font-family: $font;
+    background-color: black;
+    font-size: 0;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    li {
+        float: left;
+        &:last-of-type {
+            float: right;
+        }
+        a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: 0.5s;
+            background-color: #333;
+            font-size: 16px;
+            &:hover {
+                transition: 0.5s;
+                background-color: #111;
+            }
+            &.active {
+                background-color: #4CAF50;
+            }
+        }
+    }
+}
+
+
+h1 {
+    font-family: 'Rubik', $font;
+    font-size: 72px;
+    text-align: center;
+    color: #CCC;
+}
+
+p {
+    font-family: 'Work Sans', $font;
+    font-size: 22px;
+    color: #CCC;
+    margin: 0 6%;
+}
+
+#video {
+    width: 100%;
+    margin-top: 5%;
+}
+
+footer {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+        width: 100%;
+        font-size: 0;
+        li {
+            display: block;
+            i {
+                margin-right: 10px;
+            }
+            a {
+                text-align: center;
+                font-size: 16px;
+                display: block;
+                color: black;
+                padding: 8px 16px;
+                text-decoration: none;
+                &:hover {
+                    background-color: #555;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.material-icons.md-light {
+    color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive {
+    color: rgba(255, 255, 255, 0.3); }
+
+#tutoriales {
+    color: white;
+    font-size: 16px;
+    #entrada {
+        
+    }
+}

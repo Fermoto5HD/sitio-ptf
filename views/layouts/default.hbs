@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>sitio-ptf - {{title}}</title>
+        <!--
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+        <script src="/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+        -->
+        <link rel="stylesheet" href="/css/normalize.css" media="screen" charset="utf-8">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rubik|Work+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="/css/master.min.css" media="screen" charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" charset="utf-8"></script>
+        <script src="js/handlebars.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <ul id="navbar">
+            <li><a href="/" {{active "home" navActive}}>sitio-ptf</a></li>
+            <li><a href="/tutoriales" {{active "tutoriales" navActive}}>Tutoriales</a></li>
+            <li><a href="/" {{active "foro" navActive}}>Foro</a></li>
+            <li><a href="/" {{active "about" navActive}}>"About us"</a></li>
+        </ul>
+
+        {{! Contenido!}}
+        {{{body}}}
+
+        <footer>
+            <ul>
+                <li><a href="mailto:conseguite@un.server?subject=Contacto please?"><i class="material-icons">contact_mail</i>Contacto (conseguite@un.server)</a></li>
+                <li><a href="http://www.buenosaires.gob.ar/educacion/programatufuturo"><i class="material-icons">web</i>Sitio original</a></li>
+                <li><a href="https://github.com/makmm/sitio-ptf"><i class="material-icons">code</i>Github</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
