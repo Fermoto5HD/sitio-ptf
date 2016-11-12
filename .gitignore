@@ -49,3 +49,5 @@ jspm_packages
 # Output scss
 css/master.css
 css/master.min.css
+
+.sass-cache/
